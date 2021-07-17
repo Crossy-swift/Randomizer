@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		5E80025A26A3020B00125A87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E80025926A3020B00125A87 /* AppDelegate.swift */; };
 		5E80025C26A3020B00125A87 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E80025B26A3020B00125A87 /* SceneDelegate.swift */; };
-		5E80025E26A3020B00125A87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E80025D26A3020B00125A87 /* ViewController.swift */; };
+		5E80025E26A3020B00125A87 /* RandomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E80025D26A3020B00125A87 /* RandomViewController.swift */; };
 		5E80026126A3020B00125A87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E80025F26A3020B00125A87 /* Main.storyboard */; };
 		5E80026326A3020B00125A87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E80026226A3020B00125A87 /* Assets.xcassets */; };
 		5E80026626A3020B00125A87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E80026426A3020B00125A87 /* LaunchScreen.storyboard */; };
+		5E80026E26A3069800125A87 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E80026D26A3069800125A87 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5E80025626A3020B00125A87 /* Randomizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Randomizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E80025926A3020B00125A87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E80025B26A3020B00125A87 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5E80025D26A3020B00125A87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5E80025D26A3020B00125A87 /* RandomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomViewController.swift; sourceTree = "<group>"; };
 		5E80026026A3020B00125A87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E80026226A3020B00125A87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E80026526A3020B00125A87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E80026726A3020B00125A87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E80026D26A3069800125A87 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				5E80025926A3020B00125A87 /* AppDelegate.swift */,
 				5E80025B26A3020B00125A87 /* SceneDelegate.swift */,
-				5E80025D26A3020B00125A87 /* ViewController.swift */,
+				5E80025D26A3020B00125A87 /* RandomViewController.swift */,
 				5E80025F26A3020B00125A87 /* Main.storyboard */,
+				5E80026D26A3069800125A87 /* SettingsViewController.swift */,
 				5E80026226A3020B00125A87 /* Assets.xcassets */,
 				5E80026426A3020B00125A87 /* LaunchScreen.storyboard */,
 				5E80026726A3020B00125A87 /* Info.plist */,
@@ -137,9 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E80025E26A3020B00125A87 /* ViewController.swift in Sources */,
+				5E80025E26A3020B00125A87 /* RandomViewController.swift in Sources */,
 				5E80025A26A3020B00125A87 /* AppDelegate.swift in Sources */,
 				5E80025C26A3020B00125A87 /* SceneDelegate.swift in Sources */,
+				5E80026E26A3069800125A87 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
